@@ -1,0 +1,476 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     AGTCWT_-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    2560
+Attributes:   61
+              class
+              seq00
+              seq01
+              seq02
+              seq03
+              seq04
+              seq05
+              seq06
+              seq07
+              seq08
+              seq09
+              seq10
+              seq11
+              seq12
+              seq13
+              seq14
+              seq15
+              seq16
+              seq17
+              seq18
+              seq19
+              seq20
+              seq21
+              seq22
+              seq23
+              seq24
+              seq25
+              seq26
+              seq27
+              seq28
+              seq29
+              seq30
+              seq31
+              seq32
+              seq33
+              seq34
+              seq35
+              seq36
+              seq37
+              seq38
+              seq39
+              seq40
+              seq41
+              seq42
+              seq43
+              seq44
+              seq45
+              seq46
+              seq47
+              seq48
+              seq49
+              seq50
+              seq51
+              seq52
+              seq53
+              seq54
+              seq55
+              seq56
+              seq57
+              seq58
+              seq59
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+seq29 = A
+|   seq31 = A: N (108.0/1.0)
+|   seq31 = G: N (82.0)
+|   seq31 = T
+|   |   seq30 = A: N (20.0)
+|   |   seq30 = G
+|   |   |   seq34 = A: N (5.0/1.0)
+|   |   |   seq34 = G
+|   |   |   |   seq33 = A: EI (39.0/1.0)
+|   |   |   |   seq33 = G: N (1.0)
+|   |   |   |   seq33 = T
+|   |   |   |   |   seq28 = A: EI (2.0)
+|   |   |   |   |   seq28 = G: N (2.0)
+|   |   |   |   |   seq28 = T: N (0.0)
+|   |   |   |   |   seq28 = C: N (0.0)
+|   |   |   |   |   seq28 = D: N (0.0)
+|   |   |   |   |   seq28 = N: N (0.0)
+|   |   |   |   |   seq28 = S: N (0.0)
+|   |   |   |   |   seq28 = R: N (0.0)
+|   |   |   |   seq33 = C: N (1.0)
+|   |   |   |   seq33 = D: EI (0.0)
+|   |   |   |   seq33 = N: EI (0.0)
+|   |   |   |   seq33 = S: EI (0.0)
+|   |   |   |   seq33 = R: EI (0.0)
+|   |   |   seq34 = T: N (4.0/1.0)
+|   |   |   seq34 = C: N (6.0)
+|   |   |   seq34 = D: EI (0.0)
+|   |   |   seq34 = N: EI (0.0)
+|   |   |   seq34 = S: EI (0.0)
+|   |   |   seq34 = R: EI (0.0)
+|   |   seq30 = T: N (18.0)
+|   |   seq30 = C: N (25.0)
+|   |   seq30 = D: N (0.0)
+|   |   seq30 = N: N (0.0)
+|   |   seq30 = S: N (0.0)
+|   |   seq30 = R: N (0.0)
+|   seq31 = C: N (89.0)
+|   seq31 = D: N (0.0)
+|   seq31 = N: N (0.0)
+|   seq31 = S: N (0.0)
+|   seq31 = R: N (0.0)
+seq29 = G
+|   seq28 = A
+|   |   seq31 = A
+|   |   |   seq27 = A: N (14.0/3.0)
+|   |   |   seq27 = G: N (16.0/1.0)
+|   |   |   seq27 = T
+|   |   |   |   seq22 = A: IE (2.0)
+|   |   |   |   seq22 = G: N (3.0)
+|   |   |   |   seq22 = T: IE (28.0/1.0)
+|   |   |   |   seq22 = C: IE (6.0)
+|   |   |   |   seq22 = D: IE (0.0)
+|   |   |   |   seq22 = N: IE (0.0)
+|   |   |   |   seq22 = S: IE (0.0)
+|   |   |   |   seq22 = R: IE (0.0)
+|   |   |   seq27 = C
+|   |   |   |   seq17 = A
+|   |   |   |   |   seq16 = A: N (1.0)
+|   |   |   |   |   seq16 = G: N (2.0)
+|   |   |   |   |   seq16 = T: IE (0.0)
+|   |   |   |   |   seq16 = C: IE (4.0)
+|   |   |   |   |   seq16 = D: IE (0.0)
+|   |   |   |   |   seq16 = N: IE (0.0)
+|   |   |   |   |   seq16 = S: IE (0.0)
+|   |   |   |   |   seq16 = R: IE (0.0)
+|   |   |   |   seq17 = G
+|   |   |   |   |   seq14 = A: IE (1.0)
+|   |   |   |   |   seq14 = G: N (5.0)
+|   |   |   |   |   seq14 = T: IE (3.0)
+|   |   |   |   |   seq14 = C: IE (2.0)
+|   |   |   |   |   seq14 = D: IE (0.0)
+|   |   |   |   |   seq14 = N: IE (0.0)
+|   |   |   |   |   seq14 = S: IE (0.0)
+|   |   |   |   |   seq14 = R: IE (0.0)
+|   |   |   |   seq17 = T: IE (43.0/2.0)
+|   |   |   |   seq17 = C: IE (40.0)
+|   |   |   |   seq17 = D: IE (0.0)
+|   |   |   |   seq17 = N: IE (0.0)
+|   |   |   |   seq17 = S: IE (0.0)
+|   |   |   |   seq17 = R: IE (0.0)
+|   |   |   seq27 = D: IE (0.0)
+|   |   |   seq27 = N: IE (0.0)
+|   |   |   seq27 = S: IE (0.0)
+|   |   |   seq27 = R: IE (0.0)
+|   |   seq31 = G
+|   |   |   seq27 = A
+|   |   |   |   seq33 = A: IE (2.0)
+|   |   |   |   seq33 = G: N (7.0)
+|   |   |   |   seq33 = T: IE (1.0)
+|   |   |   |   seq33 = C: N (3.0)
+|   |   |   |   seq33 = D: N (0.0)
+|   |   |   |   seq33 = N: N (0.0)
+|   |   |   |   seq33 = S: N (0.0)
+|   |   |   |   seq33 = R: N (0.0)
+|   |   |   seq27 = G: N (7.0/1.0)
+|   |   |   seq27 = T: IE (23.0/3.0)
+|   |   |   seq27 = C: IE (114.0/8.0)
+|   |   |   seq27 = D: IE (0.0)
+|   |   |   seq27 = N: IE (0.0)
+|   |   |   seq27 = S: IE (0.0)
+|   |   |   seq27 = R: IE (0.0)
+|   |   seq31 = T
+|   |   |   seq30 = A
+|   |   |   |   seq27 = A: N (2.0)
+|   |   |   |   seq27 = G: N (1.0)
+|   |   |   |   seq27 = T: IE (4.0)
+|   |   |   |   seq27 = C: IE (40.0/1.0)
+|   |   |   |   seq27 = D: IE (0.0)
+|   |   |   |   seq27 = N: IE (0.0)
+|   |   |   |   seq27 = S: IE (0.0)
+|   |   |   |   seq27 = R: IE (0.0)
+|   |   |   seq30 = G
+|   |   |   |   seq34 = A
+|   |   |   |   |   seq32 = A: EI (13.0/2.0)
+|   |   |   |   |   seq32 = G: IE (19.0/5.0)
+|   |   |   |   |   seq32 = T: EI (1.0)
+|   |   |   |   |   seq32 = C: IE (2.0)
+|   |   |   |   |   seq32 = D: IE (0.0)
+|   |   |   |   |   seq32 = N: IE (0.0)
+|   |   |   |   |   seq32 = S: IE (0.0)
+|   |   |   |   |   seq32 = R: IE (0.0)
+|   |   |   |   seq34 = G: EI (239.0/17.0)
+|   |   |   |   seq34 = T
+|   |   |   |   |   seq32 = A: EI (23.0/4.0)
+|   |   |   |   |   seq32 = G
+|   |   |   |   |   |   seq21 = A: EI (4.0)
+|   |   |   |   |   |   seq21 = G: IE (0.0)
+|   |   |   |   |   |   seq21 = T: IE (7.0)
+|   |   |   |   |   |   seq21 = C: IE (3.0)
+|   |   |   |   |   |   seq21 = D: IE (0.0)
+|   |   |   |   |   |   seq21 = N: IE (0.0)
+|   |   |   |   |   |   seq21 = S: IE (0.0)
+|   |   |   |   |   |   seq21 = R: IE (0.0)
+|   |   |   |   |   seq32 = T: IE (7.0/1.0)
+|   |   |   |   |   seq32 = C: IE (3.0)
+|   |   |   |   |   seq32 = D: EI (0.0)
+|   |   |   |   |   seq32 = N: EI (0.0)
+|   |   |   |   |   seq32 = S: EI (0.0)
+|   |   |   |   |   seq32 = R: EI (0.0)
+|   |   |   |   seq34 = C
+|   |   |   |   |   seq32 = A: EI (13.0/2.0)
+|   |   |   |   |   seq32 = G
+|   |   |   |   |   |   seq49 = A: IE (1.0)
+|   |   |   |   |   |   seq49 = G: EI (6.0)
+|   |   |   |   |   |   seq49 = T: IE (4.0)
+|   |   |   |   |   |   seq49 = C: IE (3.0/1.0)
+|   |   |   |   |   |   seq49 = D: IE (0.0)
+|   |   |   |   |   |   seq49 = N: IE (0.0)
+|   |   |   |   |   |   seq49 = S: IE (0.0)
+|   |   |   |   |   |   seq49 = R: IE (0.0)
+|   |   |   |   |   seq32 = T: IE (8.0/2.0)
+|   |   |   |   |   seq32 = C: IE (10.0)
+|   |   |   |   |   seq32 = D: IE (0.0)
+|   |   |   |   |   seq32 = N: IE (0.0)
+|   |   |   |   |   seq32 = S: IE (0.0)
+|   |   |   |   |   seq32 = R: IE (0.0)
+|   |   |   |   seq34 = D: EI (0.0)
+|   |   |   |   seq34 = N: EI (0.0)
+|   |   |   |   seq34 = S: EI (0.0)
+|   |   |   |   seq34 = R: EI (0.0)
+|   |   |   seq30 = T
+|   |   |   |   seq27 = A: N (1.0)
+|   |   |   |   seq27 = G: N (2.0)
+|   |   |   |   seq27 = T: IE (5.0)
+|   |   |   |   seq27 = C: IE (15.0)
+|   |   |   |   seq27 = D: IE (0.0)
+|   |   |   |   seq27 = N: IE (0.0)
+|   |   |   |   seq27 = S: IE (0.0)
+|   |   |   |   seq27 = R: IE (0.0)
+|   |   |   seq30 = C
+|   |   |   |   seq24 = A: N (3.0/1.0)
+|   |   |   |   seq24 = G: N (2.0)
+|   |   |   |   seq24 = T: IE (13.0)
+|   |   |   |   seq24 = C: IE (26.0/1.0)
+|   |   |   |   seq24 = D: IE (0.0)
+|   |   |   |   seq24 = N: IE (0.0)
+|   |   |   |   seq24 = S: IE (0.0)
+|   |   |   |   seq24 = R: IE (0.0)
+|   |   |   seq30 = D: EI (0.0)
+|   |   |   seq30 = N: EI (0.0)
+|   |   |   seq30 = S: EI (0.0)
+|   |   |   seq30 = R: EI (0.0)
+|   |   seq31 = C
+|   |   |   seq27 = A
+|   |   |   |   seq20 = A: N (4.0)
+|   |   |   |   seq20 = G: N (2.0)
+|   |   |   |   seq20 = T: IE (4.0)
+|   |   |   |   seq20 = C: N (4.0/1.0)
+|   |   |   |   seq20 = D: N (0.0)
+|   |   |   |   seq20 = N: N (0.0)
+|   |   |   |   seq20 = S: N (0.0)
+|   |   |   |   seq20 = R: N (0.0)
+|   |   |   seq27 = G: N (8.0/2.0)
+|   |   |   seq27 = T: IE (14.0/3.0)
+|   |   |   seq27 = C
+|   |   |   |   seq24 = A
+|   |   |   |   |   seq06 = A: IE (0.0)
+|   |   |   |   |   seq06 = G: IE (1.0)
+|   |   |   |   |   seq06 = T: IE (2.0)
+|   |   |   |   |   seq06 = C: N (2.0)
+|   |   |   |   |   seq06 = D: IE (0.0)
+|   |   |   |   |   seq06 = N: IE (0.0)
+|   |   |   |   |   seq06 = S: IE (0.0)
+|   |   |   |   |   seq06 = R: IE (0.0)
+|   |   |   |   seq24 = G
+|   |   |   |   |   seq56 = A: IE (1.0)
+|   |   |   |   |   seq56 = G: IE (3.0)
+|   |   |   |   |   seq56 = T: N (5.0)
+|   |   |   |   |   seq56 = C: N (1.0)
+|   |   |   |   |   seq56 = D: N (0.0)
+|   |   |   |   |   seq56 = N: N (0.0)
+|   |   |   |   |   seq56 = S: N (0.0)
+|   |   |   |   |   seq56 = R: N (0.0)
+|   |   |   |   seq24 = T: IE (42.0/2.0)
+|   |   |   |   seq24 = C: IE (51.0/2.0)
+|   |   |   |   seq24 = D: IE (0.0)
+|   |   |   |   seq24 = N: IE (0.0)
+|   |   |   |   seq24 = S: IE (0.0)
+|   |   |   |   seq24 = R: IE (0.0)
+|   |   |   seq27 = D: IE (0.0)
+|   |   |   seq27 = N: IE (0.0)
+|   |   |   seq27 = S: IE (0.0)
+|   |   |   seq27 = R: IE (0.0)
+|   |   seq31 = D: IE (0.0)
+|   |   seq31 = N: IE (0.0)
+|   |   seq31 = S: IE (0.0)
+|   |   seq31 = R: IE (0.0)
+|   seq28 = G
+|   |   seq31 = A: N (29.0)
+|   |   seq31 = G: N (27.0/1.0)
+|   |   seq31 = T
+|   |   |   seq30 = A: N (2.0)
+|   |   |   seq30 = G
+|   |   |   |   seq34 = A: EI (3.0/1.0)
+|   |   |   |   seq34 = G: EI (52.0)
+|   |   |   |   seq34 = T
+|   |   |   |   |   seq22 = A: N (0.0)
+|   |   |   |   |   seq22 = G: N (2.0)
+|   |   |   |   |   seq22 = T: EI (3.0)
+|   |   |   |   |   seq22 = C: N (4.0)
+|   |   |   |   |   seq22 = D: N (0.0)
+|   |   |   |   |   seq22 = N: N (0.0)
+|   |   |   |   |   seq22 = S: N (0.0)
+|   |   |   |   |   seq22 = R: N (0.0)
+|   |   |   |   seq34 = C: EI (5.0/1.0)
+|   |   |   |   seq34 = D: EI (0.0)
+|   |   |   |   seq34 = N: EI (0.0)
+|   |   |   |   seq34 = S: EI (0.0)
+|   |   |   |   seq34 = R: EI (0.0)
+|   |   |   seq30 = T: N (3.0)
+|   |   |   seq30 = C: N (7.0)
+|   |   |   seq30 = D: EI (0.0)
+|   |   |   seq30 = N: EI (0.0)
+|   |   |   seq30 = S: EI (0.0)
+|   |   |   seq30 = R: EI (0.0)
+|   |   seq31 = C: N (33.0)
+|   |   seq31 = D: N (0.0)
+|   |   seq31 = N: N (0.0)
+|   |   seq31 = S: N (0.0)
+|   |   seq31 = R: N (0.0)
+|   seq28 = T
+|   |   seq31 = A: N (29.0)
+|   |   seq31 = G: N (35.0/1.0)
+|   |   seq31 = T
+|   |   |   seq30 = A: N (2.0)
+|   |   |   seq30 = G: EI (69.0/5.0)
+|   |   |   seq30 = T: N (10.0)
+|   |   |   seq30 = C: N (11.0)
+|   |   |   seq30 = D: EI (0.0)
+|   |   |   seq30 = N: EI (0.0)
+|   |   |   seq30 = S: EI (0.0)
+|   |   |   seq30 = R: EI (0.0)
+|   |   seq31 = C: N (27.0/1.0)
+|   |   seq31 = D: N (0.0)
+|   |   seq31 = N: N (0.0)
+|   |   seq31 = S: N (0.0)
+|   |   seq31 = R: N (0.0)
+|   seq28 = C
+|   |   seq31 = A: N (12.0)
+|   |   seq31 = G: N (13.0)
+|   |   seq31 = T
+|   |   |   seq30 = A: EI (0.0)
+|   |   |   seq30 = G: EI (51.0/2.0)
+|   |   |   seq30 = T: N (3.0)
+|   |   |   seq30 = C: N (4.0)
+|   |   |   seq30 = D: EI (0.0)
+|   |   |   seq30 = N: EI (0.0)
+|   |   |   seq30 = S: EI (0.0)
+|   |   |   seq30 = R: EI (0.0)
+|   |   seq31 = C: N (7.0)
+|   |   seq31 = D: EI (0.0)
+|   |   seq31 = N: EI (0.0)
+|   |   seq31 = S: EI (0.0)
+|   |   seq31 = R: EI (0.0)
+|   seq28 = D: IE (0.0)
+|   seq28 = N: IE (0.0)
+|   seq28 = S: IE (0.0)
+|   seq28 = R: IE (0.0)
+seq29 = T
+|   seq34 = A: N (94.0)
+|   seq34 = G
+|   |   seq30 = A: N (10.0)
+|   |   seq30 = G
+|   |   |   seq31 = A: N (7.0)
+|   |   |   seq31 = G: N (3.0)
+|   |   |   seq31 = T
+|   |   |   |   seq33 = A: EI (36.0)
+|   |   |   |   seq33 = G: N (3.0/1.0)
+|   |   |   |   seq33 = T: N (2.0)
+|   |   |   |   seq33 = C: EI (3.0/1.0)
+|   |   |   |   seq33 = D: EI (0.0)
+|   |   |   |   seq33 = N: EI (0.0)
+|   |   |   |   seq33 = S: EI (0.0)
+|   |   |   |   seq33 = R: EI (0.0)
+|   |   |   seq31 = C: N (5.0)
+|   |   |   seq31 = D: EI (0.0)
+|   |   |   seq31 = N: EI (0.0)
+|   |   |   seq31 = S: EI (0.0)
+|   |   |   seq31 = R: EI (0.0)
+|   |   seq30 = T: N (17.0)
+|   |   seq30 = C: N (19.0)
+|   |   seq30 = D: N (0.0)
+|   |   seq30 = N: N (0.0)
+|   |   seq30 = S: N (0.0)
+|   |   seq30 = R: N (0.0)
+|   seq34 = T: N (101.0)
+|   seq34 = C: N (83.0/1.0)
+|   seq34 = D: N (0.0)
+|   seq34 = N: N (0.0)
+|   seq34 = S: N (0.0)
+|   seq34 = R: N (0.0)
+seq29 = C
+|   seq30 = A: N (110.0/1.0)
+|   seq30 = G
+|   |   seq31 = A: N (4.0)
+|   |   seq31 = G: N (12.0)
+|   |   seq31 = T
+|   |   |   seq34 = A: N (1.0)
+|   |   |   seq34 = G: EI (21.0/3.0)
+|   |   |   seq34 = T: N (3.0)
+|   |   |   seq34 = C: N (3.0)
+|   |   |   seq34 = D: EI (0.0)
+|   |   |   seq34 = N: EI (0.0)
+|   |   |   seq34 = S: EI (0.0)
+|   |   |   seq34 = R: EI (0.0)
+|   |   seq31 = C: N (11.0)
+|   |   seq31 = D: N (0.0)
+|   |   seq31 = N: N (0.0)
+|   |   seq31 = S: N (0.0)
+|   |   seq31 = R: N (0.0)
+|   seq30 = T: N (114.0)
+|   seq30 = C: N (102.0)
+|   seq30 = D: N (0.0)
+|   seq30 = N: N (0.0)
+|   seq30 = S: N (0.0)
+|   seq30 = R: N (0.0)
+seq29 = D: N (0.0)
+seq29 = N: N (0.0)
+seq29 = S: N (0.0)
+seq29 = R: N (0.0)
+
+Number of Leaves  : 	316
+
+Size of the tree : 	361
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances         801               92.069  %
+Incorrectly Classified Instances        69                7.931  %
+Kappa statistic                          0.864 
+K&B Relative Info Score              72772.0502 %
+K&B Information Score                 1042.1027 bits      1.1978 bits/instance
+Class complexity | order 0            1225.3933 bits      1.4085 bits/instance
+Class complexity | scheme            22752.945  bits     26.1528 bits/instance
+Complexity improvement     (Sf)     -21527.5517 bits    -24.7443 bits/instance
+Mean absolute error                      0.0664
+Root mean squared error                  0.2148
+Relative absolute error                 17.0394 %
+Root relative squared error             48.9067 %
+Coverage of cases (0.95 level)          95.8621 %
+Mean rel. region size (0.95 level)      40.6897 %
+Total Number of Instances              870     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.938     0.051      0.961     0.938     0.949      0.966    N
+                 0.912     0.025      0.907     0.912     0.909      0.963    EI
+                 0.883     0.048      0.834     0.883     0.858      0.952    IE
+Weighted Avg.    0.921     0.045      0.922     0.921     0.921      0.963
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 470   6  25 |   a = N
+   8 165   8 |   b = EI
+  11  11 166 |   c = IE
+
